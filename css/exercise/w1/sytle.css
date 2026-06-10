@@ -1,0 +1,37 @@
+/*1. Arka plan rengi(Tum sayfa icin)*/
+body{
+    background-color: #f19393; /*sayfa arka plani acik gri olur*/
+}
+/*2. Metin rengi ve Font Boyutu (Baslik icin)*/
+.baslik{
+    color: #1c64ad;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 46px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+
+}
+.kucuk_baslik{
+    color: indigo;
+    font-size: 32px;
+    border-bottom: 2px solid black;
+}
+h3{
+    color: purple;
+    font-size: 32px;
+}
+/*3. Metin Hizalama(paragraf icin)*/
+.aciklama{
+    text-align: center;
+    color: darkblue;
+}
+/*4. Liste Stili(Opsiyonel Pratik icin)*/
+.liste{
+    color: green;
+    font-size: 18px;
+    text-align: left;
+}
+.photo{
+    width: 30%;
+    height: auto;
+}

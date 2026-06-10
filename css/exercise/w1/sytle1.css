@@ -1,0 +1,34 @@
+/* 1. Kapsayıcı Ayarları (Önceki adımdan kalıyor) */
+.kapsayici {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px dashed #690101;
+}
+
+/* 2. Kutu Ayarları (Hover'dan Önceki Durum) */
+.kutu {
+    width: 150px;
+    height: 100px;
+    background-color: lightcoral; /* Başlangıç rengi */
+    border: 1px solid darkred;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+
+    /* ACILIK: Bu satır çok önemli! Değişimi yumuşatır. */
+    transition: all 0.3s ease;
+    cursor: pointer; /* Mouse'un üzerine gelince el işareti olmasını sağlar */
+}
+
+/* 3. Hover Efektleri (Mouse üzerine gelince) */
+.kutu:hover {
+    background-color: darkred; /* Arka plan koyulaşır */
+    color: white; /* Yazı rengi beyazlaşır */
+    transform: scale(1.2); /* Kutu %5 büyür */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* Altına gölge eklenir */
+    border-color: black;
+}
